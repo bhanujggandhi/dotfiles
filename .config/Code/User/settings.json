@@ -1,0 +1,106 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Snazzy Operator",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "relative",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Operator Mono Lig', Consolas, 'Courier New', monospace",
+  "editor.fontSize": 18,
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "git.autofetch": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code,  monospace",
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.rendererType": "dom",
+  "[jsonc, javascript, typescript, html, css, graphql, ]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "npm-intellisense.scanDevDependencies": true,
+  "npm-intellisense.showBuildInLibs": true,
+  "markdown-preview-enhanced.liveUpdate": true,
+  "javascript.format.semicolons": "insert",
+  "prettier.jsxSingleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#383a42",
+    "statusBar.noFolderBackground": "#383a42",
+    "statusBar.debuggingBackground": "#383a42",
+    "statusBar.foreground": "#fff"
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.useCtrlKeys": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [":"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["J"],
+      "after": ["5", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["5", "k"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.insert": ["#383a42", "#fff"],
+  "vim.statusBarColors.normal": ["#383a42", "#fff"],
+  "vim.statusBarColors.visual": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
