@@ -8,7 +8,7 @@
   "editor.lineNumbers": "relative",
   "editor.tabSize": 2,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "'Operator Mono Lig', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Operator Mono Lig', 'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontSize": 18,
   "files.trimFinalNewlines": true,
   "files.exclude": {
@@ -102,5 +102,30 @@
   "vim.statusBarColors.easymotioninputmode": "#007ACC",
   "vim.statusBarColors.surroundinputmode": "#007ACC",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tokenColorCustomizations": {
+    "[Snazzy Operator]": {
+      "textMateRules": [
+        {
+          // JSX
+          "name": "JSX tag",
+          "scope": "entity.name.tag support.class.component",
+          "settings": {
+            "foreground": "#ff5c57"
+          }
+        },
+        // XSLT
+        {
+          "name": "XSLT tag",
+          "scope": "text.xml.xsl entity.name.tag.namespace",
+          "settings": {
+            "foreground": "#ff5c57"
+          }
+        }
+      ]
+    }
+  }
 }
