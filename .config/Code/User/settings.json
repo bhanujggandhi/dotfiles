@@ -127,5 +127,7 @@
         }
       ]
     }
-  }
+  },
+  "workbench.productIconTheme": "material-product-icons",
+  "git.confirmSync": false
 }
