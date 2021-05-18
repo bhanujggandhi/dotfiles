@@ -36,7 +36,7 @@ Aborting
 ```
 
 *This is because your $HOME folder might already have some stock configuration files which would be overwritten by Git. The solution is simple: back up the files if you care about them, remove them if you don't care.*
-
+--
 I provide you with a possible rough shortcut to move all the offending files automatically to a backup folder:
 ```sh
 mkdir -p .config-backup && \
@@ -63,3 +63,5 @@ config add .bashrc
 config commit -m "Add bashrc"
 config push
 ```
+
+[Reference](https://www.atlassian.com/git/tutorials/dotfiles)
