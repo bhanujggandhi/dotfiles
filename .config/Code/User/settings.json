@@ -24,7 +24,6 @@
   },
   "terminal.integrated.fontFamily": "Ubuntu Mono, Fira Code,  monospace",
   "terminal.integrated.fontSize": 18,
-  "terminal.integrated.rendererType": "dom",
   "[jsonc, javascript, typescript, html, css, graphql, ]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -37,13 +36,13 @@
   "javascript.format.semicolons": "insert",
   "prettier.jsxSingleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "editor.minimap.enabled": false,
   "workbench.colorCustomizations": {
     "statusBar.background": "#383a42",
     "statusBar.noFolderBackground": "#383a42",
     "statusBar.debuggingBackground": "#383a42",
-    "statusBar.foreground": "#fff"
+    "statusBar.foreground": "#fff",
+    "statusBar.debuggingForeground": "#fff"
   },
   "vim.easymotion": true,
   "vim.incsearch": true,
@@ -129,5 +128,8 @@
     }
   },
   "workbench.productIconTheme": "material-product-icons",
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "bracketPairColorizer.depreciation-notice": false
 }
